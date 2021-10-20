@@ -1,6 +1,6 @@
 h1{
 	color: whitesmoke;
-	background-color: saddlebrown;
+	background-color: black;
 	font-family: Merryweather;
 }
 p{
@@ -11,10 +11,41 @@ a{
 	font-size: 42px;
 }
 body{
-	background-color: burlywood;
+	background-color: dimgrey;
 }
 @media (max-width 960px) {
 	.container {
 		width: 700px;
+				background-color: white;
+				margin: 20px 0;
+	}
+}
+.card-white 4 {
+background-color: white;
+padding: 20px 30px;
+color: whitesmoke;
+border-radius: 10px;
+text-align: center;
+margin: 20px 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: ghostwhite;
+  border-radius: 40pw;
+  text-align: center;
+  margin: 20px 0;
+}
+.container {
+  padding: 2px 16px;
+  width: 1200px;
+  margin:100px auto;
+
+}
+S@media (max-width 960px) {
+	.container {
+		width: 700px;
+				background-color: white;
+				margin: 20px 0;
 	}
 }
