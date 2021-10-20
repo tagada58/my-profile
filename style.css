@@ -1,0 +1,20 @@
+h1{
+	color: whitesmoke;
+	background-color: saddlebrown;
+	font-family: Merryweather;
+}
+p{
+	font-size: 25px;
+	line-height: 6;
+}
+a{
+	font-size: 42px;
+}
+body{
+	background-color: burlywood;
+}
+@media (max-width 960px) {
+	.container {
+		width: 700px;
+	}
+}
